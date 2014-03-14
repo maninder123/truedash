@@ -1,0 +1,40 @@
+/*
+Design by Costin Bors - www.soleil.ro
+28 Jan 2014
+
+Medium Layout
+min-width:769px
+max-width:960px
+*/
+
+
+.container {
+	/*width: 768px;*/
+	width: 100%
+}
+
+#wideHeader{
+/*	background: orange;
+    width: 960px;
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 1em;*/
+}
+
+#topMenu{
+    width: 96%;
+}
+
+.chart{
+	float: none;
+ 	margin: 0 auto;
+}
+
+.notVisible{
+	display: none;
+}
+#topRightMenu{
+    margin-right: -20px;
+}
+

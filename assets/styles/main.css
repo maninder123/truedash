@@ -1,0 +1,42 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+
+div.angular.container {
+	margin-top: 70px;
+}
+
+div.highcharts-contextmenu div div:nth-child(1) {
+	display:none;
+}
+
+div.highcharts-contextmenu div div:nth-child(2) {
+	display:none;
+}
+
+div.highcharts-contextmenu div div:nth-child(4) {
+	display:none;
+}
+
+div.highcharts-contextmenu div hr {
+	display:none;
+}
+
+div.comparison {
+	margin: 5px 0 10px;
+}
+
+h4 p.selected-period {
+	margin-right: 10px;
+}
+
+div.dates.container-fluid {
+	background-color: #F5F5F5;
+	border-radius: 8px;
+	padding: 6px;
+}
+
+.portlet { margin: 0 1em 1em 0; }
+.portlet-content { padding: 0.4em; }
+.ui-sortable-placeholder { visibility: visible !important; height: 300px !important; width: 300px !important;} 
+
+/* .ui-sortable-placeholder { border: 1px dotted black; visibility: visible !important; height: 50px !important; }
+  .ui-sortable-placeholder * { visibility: hidden; } */

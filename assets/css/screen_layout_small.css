@@ -1,0 +1,176 @@
+/*
+Design by Costin Bors - www.soleil.ro
+28 Jan 2014
+
+
+Small Layout Styles
+min-width:320px
+max-width:768px
+*/
+
+.container {
+    /*width: 768px;*/
+    width: 100%
+}
+
+#wideHeader{
+    /*width: 100%;*/
+    height: 100px;
+    background: url(../img/bgWideHeader.png) repeat-x;   /*#14b1e7 */
+}
+
+#topMenu{
+    width: 96%;
+}
+
+#company{
+    margin-left: 4px;
+}
+
+#topLeftMenu{
+    width: 200px;
+    float: left;
+    /*background: orange;*/
+}
+
+#topRightMenu{
+    width: 200px;
+    float: right;
+    /*background: yellow;*/
+    margin-right: 0px;
+}
+
+#topLeftMenu .btn-group {
+    margin: 20px 0 0 -8px;
+}
+
+#topRightMenu .btn-group {
+    margin: 20px 0 0 0;
+}
+
+#topRightMenu .btn-group>.btn{
+    padding: 4px 5px;
+}
+
+.positionIcon{
+    position:absolute; top:0px; right:18%
+}
+.notVisibleSmall,
+.notVisible{
+    display: none;
+    /*background: yellow;*/
+}
+
+/*#searchform .field{
+        display: none;
+}*/
+#searchform .field {
+    min-width: 79%;
+    max-width: 79%;
+    font-size: 16px;
+    float: left; 
+}
+
+#rightContentMenu{
+    display: none;
+}
+
+/*#leftBottomMenu{
+        width: 220px;
+        float: left;
+}
+
+
+#rightBottomMenu{
+        width: 220px;
+        float: right;
+}*/
+
+/*#rightBottomMenu{
+    margin-top: 5px;
+}*/
+
+.chart{
+    float: none;
+    margin: 0 auto;
+}
+
+ul.dropdown-menu {
+    min-width: 154px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #FFFFFF;
+}
+
+.start-date-wrapper, .end-date-wrapper{
+    width: 97% !important;
+}
+
+#period-frequency {
+    height: 80px;
+}
+
+#selectPeriod.row-fluid, 
+#period-frequency.row-fluid, 
+#starting-ending.row-fluid, 
+#compare.row-fluid, 
+#period-buttons.row-fluid {
+    padding-right: 15px;
+}
+
+
+#starting-ending {
+    height: 90px;
+    background: #f0f0f0;
+    border-top: 1px solid #dfdfdf;
+}
+
+#ending .datepicker {
+    margin-top: 0px;
+    padding: 0px 0;
+}
+
+#starting,
+#ending{
+    height: 50px;
+    float: left;
+}
+
+#starting p{
+    line-height: 50px;
+}
+
+#ending p{
+    line-height: 28px;
+}
+
+div.datepicker.dropdown-menu{
+    margin-left: -189px;
+}
+
+.datepicker:before{
+    left: 194px
+}
+
+.datepicker:after{
+    left: 194px
+}
+.formWrapper{
+    padding: 0 10px;
+}
+.page-header h4{
+    margin-left: 10px;
+}
+.form-horizontal .btn-group{
+    width:100%;
+}
+.form-horizontal .btn-group button:first-of-type{
+    width:94%;
+}
+
+.btn-custom-wrapper{
+    min-width: 100%;
+}
+.btn-custom{
+    width: 90% !important;
+}

@@ -1,0 +1,362 @@
+/* 
+    Document   : template
+    Created on : Mar 7, 2014, 1:40:46 PM
+    Author     : Maninder
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    font-family: 'Lato',Arial,sans-serif;
+    /*font-size: 10px;*/
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+#topLeftMenu .btn-group{
+    margin-top: 8px;
+    float: left;
+}
+
+#topRightMenu{
+    margin-right: -30px;
+}
+#topRightMenu .btn-group{
+    margin-top: 5px;
+    float: left;
+}
+
+.iconsUp{
+    float: right;
+    margin-top: 5px;
+}
+
+#topLeftMenu .btn-group>.btn,
+#topRightMenu .btn-group>.btn{
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #14b1e7;
+    background-image: none;
+    background-repeat: repeat-x;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: inset none;
+}
+
+#topLeftMenu .btn-group>.btn:hover,
+#topRightMenu .btn-group>.btn:hover{
+    color: #ffffff;
+    background-color: #14b1e7;
+    text-decoration: none;
+    background-position: 0 -15px;
+    -webkit-transition: background-position 0.1s linear;
+    -moz-transition: background-position 0.1s linear;
+    -o-transition: background-position 0.1s linear;
+    transition: background-position 0.1s linear;
+}
+
+#topLeftMenu .btn-group:first-child,
+#topRightMenu .btn-group:first-child{
+    margin-left: 0;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #14b1e7;
+    background-image: none;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+
+.caretTopMenu {
+    display: inline-block;
+    width: 22px;
+    height: 14px;
+    /*vertical-align: top;*/
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: url(../images/arrow-sprite.png) no-repeat 0 3px;
+}
+.iconsUp{
+    margin-top: 5px;
+}
+ul.icons{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 5px;
+    margin: 0;
+}
+
+ul.icons li { 
+    display: inline; 
+}
+
+ul.icons li a{
+    float: left;
+    width: 2em;
+    padding: 0.2em 2em;
+    text-decoration: none;
+}
+
+#wideFooter{
+    width: 100%;
+    background: #404040;    
+}
+#footer{
+    font-size: 16px;
+    color: #ede8e8;
+}
+#footer img{
+    float: left;
+    margin: 10px 20px 10px 0;
+}
+
+#footer p{
+    float: left;
+    margin: 15px 0 0 0px;
+}
+
+#footer span.copyrightName{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 0 10px;
+}
+
+ul.footerLinks{
+    list-style-type: none;
+    margin-top: 15px;
+    float: left;
+    height: 20px;
+    float: right;
+    -webkit-padding-start: 0px;
+}
+
+ul.footerLinks li { 
+    display: inline; 
+}
+
+ul.footerLinks li a{
+    float: left;
+    padding: 1px 15px;
+    text-decoration: none;
+    color: #ede8e8;
+}
+
+ul.footerLinks li a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#wideBottomMenu{
+    background: none repeat scroll 0 0 #DADADA;
+    height: auto;
+    margin: 50px 0 0 0 !important;
+}
+#bottomMenu{
+    /*width: 960px;
+    margin: 0 auto;*/
+    padding-top: 6px;
+}
+
+input[type="button"].btnChart {
+    padding:8px 23px;  
+    background:#2ab3ab; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; 
+    font-size: 16px;
+    /* line-height: 36px; */
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#searchform{
+    height: 38px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#searchform .field {
+    min-width: 186px;
+    margin-right: 2px;
+    height: 35px;
+    border: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 0 0 0 10px;
+    font-size: 16px;
+    float: right; 
+    background: #ffffff;
+}
+
+
+#searchform .submit{
+    width: 42px;
+    height: 35px;
+    background: url(../images/search.png) no-repeat 14px 12px #ffffff;
+    border: none;
+    cursor: pointer;
+    float: right;
+} 
+
+#mainContent{
+    min-height: 480px;
+    font-size: 16px;
+    color: #585755;
+}
+
+.formWrapper{
+    background: none repeat scroll 0 0 #F0F0F0;
+    border-left: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
+    border-top: 1px solid #DFDFDF;
+    padding: 20px
+}
+
+#period-buttons {
+    height: 50px;
+    padding-top: 10px;
+}
+#apply-cancel .btn{
+    float: right;
+    margin-left: 20px;
+    width: 72px;
+    text-transform: uppercase;
+    padding: 4px 6px;
+}
+
+#apply-cancel .btn.apply{
+    background: #2ab3ab;
+    color: #ffffff;
+    text-shadow: none;
+    border: 1px solid #ffffff;
+}
+
+#apply-cancel .btn.cancel{
+    background: #ffffff;
+    color: #2ab3ab;
+    text-shadow: none;
+    border: 1px solid #2ab3ab;
+}
+
+.btn-width-148{
+    width: 148px;
+}
+.btn-width-38{
+    width: 38px;
+}
+.btn-custom-wrapper{
+    min-width: 200px;
+}
+.btn-custom-wrapper .dropdown-toggle{
+    min-width: 40px;   
+}
+.btn-custom{
+    min-width: 150px;
+}
+.date-wrapper input{
+    min-width: 150px; 
+}
+.date-wrapper button{
+    min-width: 40px;
+}
+span.input-group-addon{
+    background-color: #FFFFFF;
+}
+span.input-group-addon:hover{
+    background-color: #EBEBEB;
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+/*body > .container {
+    padding: 60px 15px 0;
+}*/
+.container .text-muted {
+    margin: 20px 0;
+}
+
+#footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+/*  ----------------------------------------------------------------------- */
+.navbar{
+    background-color: #14b1e7 !important;
+    color: #FFFFFF !important;
+}
+.navbar-brand{
+    color: #FFFFFF !important;
+    padding: 10px !important;
+}
+#footer{
+    background: none repeat scroll 0 0 #404040;
+    color: #EDE8E8;
+    font-size: 16px; 
+}
