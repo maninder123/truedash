@@ -162,7 +162,7 @@
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                     <div class="input-group">
                                         <input type="text" name="startingDate" id="startingDate" data-format="dd-MM-yyyy" class="form-control" datepicker-popup="{{format}}" ng-model="dt1" show-weeks="false" is-open="opened1" min="minDate" datepicker-options="dateOptions" show-button-bar="false" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" />
-                                        <span class="input-group-addon" ng-click="open($event,'def')"><span class="glyphicon glyphicon-calendar"></span>
+                                        <span class="input-group-addon" ng-click="open($event,'def')"><i class="glyphicon glyphicon-calendar"></i>
                                         </span>
                                     </div>
                                 </div>
@@ -175,7 +175,7 @@
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                     <div class="input-group">
                                         <input type="text" name="endingDate" id="endingDate" data-format="dd-MM-yyyy" class="form-control" datepicker-popup="{{format}}" ng-model="dt" show-weeks="false" is-open="opened" min="minDate" datepicker-options="dateOptions" show-button-bar="false" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" />
-                                        <span class="input-group-addon" ng-click="open($event,'abc')"><span class="glyphicon glyphicon-calendar"></span>
+                                        <span class="input-group-addon" ng-click="open($event,'abc')"><i class="glyphicon glyphicon-calendar"></i>
                                         </span>
                                     </div>
                                 </div>

@@ -152,7 +152,7 @@ ul.footerLinks li a{
 }
 
 ul.dropdown-menu {
-	min-width: 154px;
+	/*min-width: 154px;*/
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #FFFFFF;
